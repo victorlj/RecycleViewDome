@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/lin_item_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher_round"
+        />
+    <TextView
+        android:id="@+id/lin_item_title"
+        android:layout_marginLeft="20dp"
+        android:text="hahaha"
+        android:layout_toRightOf="@id/lin_item_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/lin_item_price"
+        android:layout_marginLeft="20dp"
+        android:text="￥123123"
+        android:textSize="20sp"
+        android:textColor="#f40d0d"
+        android:layout_below="@id/lin_item_title"
+        android:layout_toRightOf="@id/lin_item_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/lin_item_salenum"
+        android:text="123123"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lin_item_price"
+        android:layout_alignBottom="@+id/lin_item_img"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="3dp"
+        android:layout_toRightOf="@id/lin_item_img"
+        android:textSize="10sp" />
+</RelativeLayout>
